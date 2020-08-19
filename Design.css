@@ -1,0 +1,71 @@
+.grid-container {
+	display: grid;
+	align-content:left;
+	width:498px;
+	grid-template-rows: 80px 200px;
+	height:481px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	background-color:LightBlue;
+	}
+.grid-item {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	text-align:left; 
+	}
+
+.button{
+	border-radius: 8px;
+    border: 1px solid black;
+	margin:15px;
+	height:30px;
+	width:100px;
+	background-color:LightBlue;
+	color:black;
+	text-align:left;
+	font-size: 18px;
+}
+.item2 { 
+	text-align:left;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 18px;
+	height:400px;
+	width:100px;
+	justify-content:center;
+ }
+  .flex-container {
+	display: flex;
+    width:600px;
+	justify-content:center;	
+}
+.flex-container > div {
+	margin: 4px;
+	padding: 30px;
+	font-size: 20px;
+	border:1px solid rgba(0,0,0,0.8);
+	width: 128px;
+	height:30px;
+	text-align:left;
+}
+.flex-container1 {
+	display: flex;
+    width:600px;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+.flex-container1 > div {
+	margin: 4px;
+	padding: 30px;
+	font-size: 20px;
+	border:1px solid rgba(0,0,0,0.8);
+	width: 60px;
+	height:20px;
+	text-align:left;
+}
+ .item4{
+	background-color:lightblue;  
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	text-align:left;
+	font-size: 17px;
+	height:20px;
+	width:498px;
+ }
